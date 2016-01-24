@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:configChanges="orientation"
+    android:screenOrientation="portrait"
     android:background="@android:color/black"
     tools:context="com.gamerowzixgmail.izziv.MainActivity">
 <!--

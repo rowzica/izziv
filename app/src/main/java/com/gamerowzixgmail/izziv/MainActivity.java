@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ImageView imageView = (ImageView) findViewById(R.id.ImageViewID);
 
         Picasso.with(this)
-                .load("http://image.tmdb.org/t/p/original/btbRB7BrD887j5NrvjxceRDmaot.jpg")
+                //.load("http://image.tmdb.org/t/p/original/btbRB7BrD887j5NrvjxceRDmaot.jpg")
+                .load("http://image.tmdb.org/t/p/w500/btbRB7BrD887j5NrvjxceRDmaot.jpg")
+
                 .fit()
                 .into(imageView);
 
